@@ -15,3 +15,6 @@ We'll also display a list of various services available to the homeless along wi
 This will be a Progressive Web App made with React using TypeScript.
 
 
+## Sources
+
+[React Material](https://material-ui.com/getting-started/templates/)

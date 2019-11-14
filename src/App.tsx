@@ -128,7 +128,7 @@ const App: React.FC = () => {
           <footer className={classes.footer}>
               <Container maxWidth="lg">
                   <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-                      Copyright © Dans La Rue 2019.
+                      Free and Open Source Software: https://github.com/dans-la-rue
                   </Typography>
               </Container>
           </footer>
