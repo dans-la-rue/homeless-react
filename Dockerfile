@@ -15,6 +15,7 @@ RUN npm install
 
 # Get all the code needed to run the app
 COPY src .
+COPY public .
 
 # Run the angular in product
 RUN npm run build
@@ -24,3 +25,5 @@ FROM nginx:alpine
 
 #copy dist content to html nginx folder, config nginx to point in index.html
 COPY --from=node /usr/src/app/build/ /usr/share/nginx/html
+
+
