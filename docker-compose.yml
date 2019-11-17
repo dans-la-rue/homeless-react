@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  app-react:
+    image: "danslarue/homeless-react:latest"
+    build: .
+    ports:
+      - '80:80'
+    container_name: 'app-homeless-react'
+    networks:
+      - danslarue-network
+networks:
+  dakar-network:
+    driver: bridge
