@@ -14,10 +14,9 @@ COPY package*.json ./
 RUN npm install
 
 # Get all the code needed to run the app
-COPY src .
-COPY public .
+COPY src ./src
+COPY public ./public
 
-# Run the angular in product
 RUN npm run build
 
 # Stage 2

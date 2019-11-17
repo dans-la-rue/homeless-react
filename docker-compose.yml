@@ -10,5 +10,5 @@ services:
     networks:
       - danslarue-network
 networks:
-  dakar-network:
+  danslarue-network:
     driver: bridge
